@@ -1,0 +1,25 @@
+*{
+    font-size: 14px;
+}
+#myModal .modal-content {
+    height: 500px;
+    
+    width:100%;
+}
+
+canvas {
+    left: 0px;
+    position: absolute;
+}
+
+
+.btn-bottom {
+    position: absolute;
+    top:50px;
+}
+
+#canvas,#video
+{
+	width:95%;
+	height:300px;
+}

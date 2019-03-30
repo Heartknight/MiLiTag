@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+
+<c3p0-config>
+
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///mili</property>
+		<property name="user">root</property>
+		<property name="password">knight</property>
+		<property name="initialPoolSize">5</property>
+		<property name="maxPoolSize">20</property>
+	</default-config>
+
+	<named-config name="knight">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///mili</property>
+		<property name="user">root</property>
+		<property name="password">knight</property>
+	</named-config>
+
+
+</c3p0-config>

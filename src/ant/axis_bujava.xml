@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+<project default="main" basedir=".">
+
+<echo message="pulling in property files"/>
+<property file="axis_bujava.properties"/>
+	
+<echo message="calling the web services generation ant task: axis_bujava"/>
+ <target name="main" >
+  	 <wsgen/>
+  </target>
+  
+</project>
